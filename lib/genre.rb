@@ -9,4 +9,11 @@ class Genre
     @@all << self
   end
   
+  def songs
+    Song.all.select {|song| 
+  
+  def self.all
+    @@all
+  end
+  
 end
