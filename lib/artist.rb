@@ -9,7 +9,8 @@ class Artist
     @@all << self
   end
   
-  def new_song
+  def new_song(title,genre)
+    
   
   def self.all
     @@all
